@@ -45,10 +45,10 @@ const Countdown = () => {
         <FallingSnow />
       </Canvas>
       <div style={{
-        position: 'absolute', top: '20%', left: '50%',
+        position: 'absolute', top: '30%', left: '50%',
         transform: 'translate(-50%, -50%)',
         color: 'orangered',  // Dark text color
-        fontSize: '6rem',   // Larger font size for header
+        fontSize: '4rem',   // Larger font size for header
         fontWeight: 'bolder', // Extra bold text
         textAlign: 'center',
         textShadow: '3px 3px 10px rgba(255, 255, 255, 0.9)', // Enhanced shadow
@@ -56,7 +56,7 @@ const Countdown = () => {
         <p>Shoaib Weds Sana</p>
       </div>
       <div style={{
-        position: 'absolute', top: '50%', left: '50%',
+        position: 'absolute', top: '100%', left: '50%',
         transform: 'translate(-50%, -50%)',
         color: 'green',  // Dark text color
         fontSize: '2rem',   // Large font size
